@@ -18,7 +18,7 @@ ESCAViT: Multi-stream architecture combining ViViT with lead attention mechanism
 
 
 ## Dataset
-This study used data from the "HMS - Harmful Brain Activity Classification" competition on Kaggle (\href{https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification}{https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification}). The dataset is licensed under CC BY-NC 4.0.
+This study used data from the "HMS - Harmful Brain Activity Classification" competition on Kaggle (https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification). The dataset is licensed under CC BY-NC 4.0.
 
 
 ## Training Setting
