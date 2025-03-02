@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-class AES_Mix(nn.Module):
+class LIGCL(nn.Module):
     def __init__(self, temperature=0.07):
         super().__init__()
         self.temperature = temperature
