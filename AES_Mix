@@ -41,7 +41,7 @@ def oversample_data(df, rda_ratio=1.5, lpd_ratio=1.3):
     
 #     return df_oversampled
 
-class MICCAI_EEGDomainMixup(Dataset):
+class AES_Mix(Dataset):
     def __init__(self, df, label_columns, transform=None, mixup_prob=0.3, mixup_alpha=0.2, is_train=False): 
         if is_train:
             self.df = oversample_data(df)
@@ -240,7 +240,7 @@ class MICCAI_EEGDomainMixup(Dataset):
             'is_RDA' : False
         }
 
-def MICCAI_EEGDomainMixup_collate_fn(batch):
+def AES_Mix_collate_fn(batch):
     return {
         'x': torch.stack([d['x'] for d in batch]),
         'y_soft': torch.stack([d['y_soft'] for d in batch]),
