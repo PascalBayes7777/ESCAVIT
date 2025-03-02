@@ -3,16 +3,20 @@
 This repository contains the implementation of ESCAViT for IIIC pattern classification, including:
 
 Domain_Specific_Mixup.py: Implementation of Domain-Specific Mixup strategy
+-> Adaptive EEG Spectrogram Mixup (AES-Mix)
 
 Symmetry_Aware_Contrastive_Learning_Loss.py: Symmetry-Aware Contrastive Learning Loss
+-> Lead Interrelation-Guided Contrastive Learning (LIGCL)
 
 ESCAViT.py: ESCAViT model architecture
 
 
 ## Overview
 Domain-Specific Mixup: Custom mixup strategy for handling EEG data ambiguity
+-> Adaptive EEG Spectrogram Mixup (AES-Mix)
 
 Symmetry-Aware Contrastive Learning: Loss function designed for lead symmetry learning
+-> Lead Interrelation-Guided Contrastive Learning (LIGCL)
 
 ESCAViT: Multi-stream architecture combining ViViT with lead attention mechanisms
 
